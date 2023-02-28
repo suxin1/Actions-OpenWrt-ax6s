@@ -76,8 +76,7 @@ jobs:
 
       - name: Install feeds
         run: |
-          cd openwrt && ./scripts/feeds install libpam
-          ./scripts/feeds install -a
+          cd openwrt && ./scripts/feeds install -a
           
 
       - name: Load custom configuration
